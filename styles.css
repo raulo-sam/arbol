@@ -1,0 +1,83 @@
+        body {
+            background: #1a3e23;
+        }
+        
+        .barra {
+            width: 100%;
+            max-width: 100%;
+            height: 60px;
+            background-color: rgb(56, 54, 54);
+            position: absolute;
+            top: 0%;
+            display: flex;
+            justify-content: center;
+            align-content: space-between;
+        }
+        
+        .botones {
+            display: block
+        }
+        
+        #poner {
+            margin: 5px
+        }
+        
+        #mover {
+            margin: 5px
+        }
+        
+        p {
+            display: block;
+            margin-top: 80px;
+            /* margin-bottom: 5px; */
+            text-align: center;
+        }
+        
+        .contenedor {
+            display: block;
+            /* margin-top: -50px; */
+            background: #99CCFF;
+            width: 500px;
+            height: 450px;
+            min-width: 400px;
+            margin: 0px auto;
+            border: 1px solid rgb(66, 64, 64);
+            border-radius: 5px;
+            position: relative;
+            padding-top: 50px;
+        }
+        
+        img {
+            /* width: 380px;
+            height: 380px; */
+            /* padding: 50px; */
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            /* background: rgba(255, 0, 0, 0.219); */
+        }
+        
+        p span {
+            font-size: 25px;
+        }
+        
+        .adorno {
+            position: absolute;
+            top: 0%;
+        }
+        
+        #dificultad,
+        #bolasCreadas,
+        #bolasEliminadas,
+        #jugar {
+            color: white;
+        }
+        
+        option {
+            background-color: #1a3e23;
+        }
+        
+        .panel {
+            text-align: center;
+            color: orange
+        }
